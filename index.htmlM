@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K&E Fashion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>K&E Fashion</h1>
+        <nav>
+            <a href="#">Начало</a>
+            <a href="#">Дрехи</a>
+            <a href="#">Контакти</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Добре дошли в нашия моден свят</h2>
+        <p>Най-новите тенденции за стил и елегантност</p>
+    </section>
+
+    <section class="products">
+        <h2>Продукти</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="https://via.placeholder.com/200x250" alt="Продукт 1">
+                <h3>Елегантна рокля</h3>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200x250" alt="Продукт 2">
+                <h3>Стилен костюм</h3>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200x250" alt="Продукт 3">
+                <h3>Модни аксесоари</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 K&E Fashion. Всички права запазени.</p>
+    </footer>
+</body>
+</html>
