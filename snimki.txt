@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HouseFashion Галерия</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      text-align: center;
+      padding: 20px 0;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 200px;
+      height: auto;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>HouseFashion Галерия</h1>
+
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246" alt="Снимка 1">
+    <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511" alt="Снимка 2">
+    <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" alt="Снимка 3">
+    <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" alt="Снимка 4">
+    <img src="https://images.unsplash.com/photo-1495121605193-b116b5b09a5d" alt="Снимка 5">
+  </div>
+
+</body>
+</html>
